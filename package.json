@@ -1,0 +1,9 @@
+{
+  "name": "Jong Leay",
+  "description": "TBD",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.13.3 ",
+    "body-parser": "~1.14.2"
+  }
+}
