@@ -1,6 +1,6 @@
 var express    = require('express');
 var bodyParser = require('body-parser');
-var router2     = require('./lib/router');
+var router     = require('./lib/router');
 
 var app        = express();                 // define our app using express
 
@@ -15,7 +15,7 @@ var port = process.env.PORT || 3000;        // set our port
 
 // REGISTER OUR ROUTES -------------------------------
 // all of our routes will be prefixed with /api
-app.use('/', router2);
+app.use('/', router);
 
 app.listen(port);
 console.info('Server started on port ' + port);

@@ -1,9 +1,14 @@
 {
-  "name": "Jong Leay",
+  "name": "Jong_Leay",
   "description": "TBD",
   "main": "server.js",
   "dependencies": {
     "express": "~4.13.3 ",
     "body-parser": "~1.14.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sbusayarat/JongLeay-Service"
+  },
+  "license": "MIT"
 }
